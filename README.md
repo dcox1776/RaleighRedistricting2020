@@ -35,7 +35,7 @@ https://www.census.gov/data/academy/courses/2020-census-redistricting-data.html
 
 A final word about redistricting. Raleigh's total population according to the 2020 Census is 467,665. Ideally, each City Council District will contain the same number of people. With five districts this comes out to be 93,533. Of course, in the real world, this will never happen. Thus, the rule is that each district cannot differ from the ideal by more than 5%. Five percent of 93,533 is 4677. Thus, each district's population should fall between 88,856 and 98,210.
 
-Clearly, District A fails this test. Thus, District boundaries will have to be moved allowing District A to increase in population. It might seem that the easiest thing to do is to move people from District B to District A. And that is certainly a choice. However, it is also possible to change the boundaries of one or more districts to achieve balance.
+Clearly, District A fails this test. Thus, District boundaries will have to be moved allowing District A to increase in population. It might seem that the easiest thing to do is to move people from District B to District A. And that is certainly a choice. However, it is also possible to change the boundaries of several districts to achieve balance.
 
 And there is where the discussion begins. How should the boundaries be changed? What are the guiding principles for changing the boundaries? There is much to discuss.
 
