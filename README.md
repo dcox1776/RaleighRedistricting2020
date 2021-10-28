@@ -26,12 +26,7 @@ select district, sum(pop100) from geoheader inner join district on DISTRICT.GEOC
 
 Here are the results by district:
 
-district	sum(pop100)
-A	85013
-B	98151
-C	94985
-D	94547
-E	94969
+A:	85013, B:	98151, C:	94985, D:	94547, E:	94969
 
 I will upload the populations by voting precinct into a separate file and will update this README file when it is available.
 
