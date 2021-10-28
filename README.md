@@ -2,13 +2,9 @@
 This repository contains files and information pertaining to the 2020 census and redistricting for Raleigh, NC
 Note that much (if not all) of this information will be meaningful to people with technical experience with databases and programming. I provide it to provide at least some transparancy about what the data looks like and how it is analyzed to determine population by City Council District and by voting precinct. As time permits I will add to this description to hopefully provide further clarifications.
 
-The file, census.zip, is a compressed file containing census.db which is a SQLite database. The database contains five files:
+The file, census.zip, is a compressed file containing census.db which is a SQLite database. The database contains five tables:
 
-District
-GeoHeader
-Segment1
-Segment2
-Segment3
+District, GeoHeader, Segment1, Segment2, Segment3
 
 Census.db was created from the data files provided by the Census Bureau. These files are available at https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html. After navigating to this page look for "Legacy Format Summary Files" which is a link to a directory where the files are organized into subfolders by state. Clicking on North Carolina will take you to another directory that contains a zip file that contains all the data files. It is from these files that the GeoHeader, Segment1, Segment2, and Segment3 tables were created in census.db.
 
