@@ -35,3 +35,9 @@ Clearly, District A fails this test. Thus, District boundaries will have to be m
 
 And there is where the discussion begins. How should the boundaries be changed? What are the guiding principles for changing the boundaries? There is much to discuss.
 
+UPDATE:
+Here is SQL to determine the White population in each precinct. The Non-White population is calculated by subtracting the White population from the total.
+
+SELECT District.district, MASTER.VTD, SUM(MASTER.P0010003) FROM DISTRICT INNER JOIN
+(select * from geoheader inner join segment1 on geoheader.LOGRECNO = segment1.LOGRECNO) as MASTER on DISTRICT.GEOCODE=MASTER.GEOCODE group by district.district, MASTER.VTD
+
